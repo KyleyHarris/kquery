@@ -1,8 +1,9 @@
 {
   "name": "@kyleyharris/kquery",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "its not jquery",
-  "main": "kquery.ts",
+  "main": "lib/kquery.js",
+  "module": "lib/kquery.js",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"

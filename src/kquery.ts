@@ -11,7 +11,7 @@
 const CLASS_HIDDEN = 'hidden';
 const DISPLAY_NONE = 'none';
 
-class K$ extends Array<HTMLElement> {
+export class K$ extends Array<HTMLElement> {
     isK$: boolean;
     constructor(args: any) {
         super();
@@ -110,7 +110,7 @@ class K$ extends Array<HTMLElement> {
         if (this.first) return this.first.parentNode;
         else return undefined;
     }
-    find(...args: any): K$ {
+    public findChild(...args: any): K$ {
         let result: Node[] = [];
         this.forEach((e) => {
             const collection = K$.convertArgumentsToElementsArray(args, e);
