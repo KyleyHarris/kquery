@@ -26,5 +26,8 @@
   "homepage": "https://github.com/KyleyHarris/kquery#readme",
   "devDependencies": {
     "typescript": "^4.5.3"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
