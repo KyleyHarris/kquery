@@ -1,0 +1,26 @@
+{
+  "name": "@kyleyharris/kquery",
+  "version": "1.0.0",
+  "description": "its not jquery",
+  "main": "kquery.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleyHarris/kquery.git"
+  },
+  "keywords": [
+    "html",
+    "query"
+  ],
+  "author": "Kyley Harris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KyleyHarris/kquery/issues"
+  },
+  "homepage": "https://github.com/KyleyHarris/kquery#readme",
+  "devDependencies": {
+    "typescript": "^4.5.3"
+  }
+}
