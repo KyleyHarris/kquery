@@ -4,12 +4,16 @@
   "description": "its not jquery",
   "main": "kquery.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KyleyHarris/kquery.git"
   },
+  "files": [
+    "lib/**/*"
+  ],
   "keywords": [
     "html",
     "query"
